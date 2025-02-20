@@ -119,9 +119,12 @@ body {
     margin-top: -3mm;
 }
 
-.org-logo img {
-    max-width: 46.25%; /* 27% */
-    height: auto;
+.org-logo img{
+    height: 15mm;
+    width: 15mm;
+    position: absolute;
+    left: 10mm;
+    top: 53mm;
 }
 
 .user-photo {
@@ -146,14 +149,14 @@ body {
 
 .user-name {
     font-size: 7mm;
+    width: 46mm;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 30mm;
-    position: relative;
-    top: 35mm;
-    left: 11mm;
+    position: absolute;
+    top: 31mm;
+    left: 8mm;
     letter-spacing: 1mm;
-    text-align:centre;
 }
 
 .id-number {
@@ -161,40 +164,40 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
-    position: relative;
-    top: 15mm;
-    left: 4mm;
+    position: absolute;
+    top: 50mm;
+    left: 9mm;
     letter-spacing: 0.4mm;
 }
 
 .id-title {
     letter-spacing: 0.4mm;
-    font-size: 0.8333em;
-    text-align: center;
+    font-size: 10pt;
+    /* text-align: center; */
     margin-bottom: 18mm;
-    position: relative;
-    top: -17mm;
-    left: 12mm;
+    position: absolute;
+    top: 39mm;
+    left: 17mm;
+    width: 30mm;
 }
 
 .org-name {
-    font-size: -1.1667em;
-    font-weight: bold;
-    text-align: center;
+    font-size: 5pt;
     margin-bottom: 18mm;
     position: absolute;
-    top: 54mm;
-    left: 8mm;
+    top: 62mm;
+    left: 2mm;
+    width: 32mm;
+    text-align: center;
 }
 
 .org-address {
-    font-size: 0.8333em;
-    font-weight: bold;
-    text-align: center;
+    font-size: 5pt;
     margin-bottom: 18mm;
     position: absolute;
-    top: 60mm;
-    left: 16mm;
+    top: 65mm;
+    left: 3mm;
+    width: 29mm;
 }
 
 .id-card-wrapper-back {
